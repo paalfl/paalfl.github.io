@@ -84,3 +84,19 @@ master-thesis/
 | 14 | Edit: add the GitHub link | Saved | I showed the line first. Whether the repository exists: not checked |
 
 Goal: follow AGENTS.md, go through session 1, ask before changing files, and log the work. Checked: the thesis folder exists, and the name and link are in index.md. Not precise enough: "take me through the first part" had no clear end, "log what we did" was not done at the time, and "ask before you change any file" was broken once, in step 2.
+
+## 2026-11-09, session 2, part 1: tools and the agent loop
+- Did: small task and the tutor exercise.
+- Result: the agent listed its tools in four groups (files, workflow, publishing, other). It rewrote "Make my GitHub page better" three times. Version 3: the page at paalfl.github.io shows the name Pål Flø and the list "What I built in this course", one line per finished part of sessions 1 and 2, at least one link to a repository under github.com/paalfl, all links working. Whether the page is live: not checked.
+- Tutor: Sunday opening in five cities. Prediction: Sunday revenue. Judgment: whether the surplus is worth the cost to staff and customers. Student's goal: a table with expected revenue in NOK per Sunday for each of the five cities, based on actual Sunday revenue in stores of similar size open on Sundays in Bergen and Oslo sentrum. Open point: how to transfer the figures to the other three cities. The student did not confirm the final wording.
+- Checks: question 1 (who runs a tool) answered wrong, the agent gave the answer: Claude Code. Question 2 (how the loop ends) half answered, the agent gave the second half: the agent is stuck. Both should be repeated at the start of part 2.
+
+## 2026-11-09, session 2, part 2: MCP, workshop 2 task
+- Did: asked the agent to make a new version of workshop 2 with the mst0441 server.
+- Result: the agent did not find workshop 2 on the mst0441 MCP server. The guide lists only rules and rubrics s01 to s15. Searches for "Workshop 2" returned no workshop. Section ids such as workshop-2 and w2 returned "Unknown section id". The student then put the workshop 2 paper in AABE/Workshop 2, and the agent read the topics from the exam paper (sessions 8 to 11).
+- Problems: the agent wrote a new workshop 2 (5 problems, sessions 8 to 11). mst0441_check_problem gave one FAIL ("tariffs" in an option in problem 5), fixed. Problems 2 and 3 verified with mst0441_verify, problems 1, 4 and 5 not machine-checked.
+- Student's solution: all numbers in problems 2 and 3 OK with mst0441_verify. Problem 1 correct by hand check, not machine-checked. Problem 5: 10 of 10 correct. Errors: 2(d) explanation has 4 sentences, cap is 3. 2(a) frontier described in text, not drawn. Missing in 1(d): exposure vs adoption said explicitly.
+- Hand-in page: my-page/mcp.md created in AABE, as the student asked. It holds the problems, the student's solution verbatim and the check result. Two sections are left for the student: what an MCP server is and why they trust mst0441, and what they changed. Not yet on GitHub.
+- Tutor: question 1 (what an MCP server sends) mostly right. Missing: server instructions go straight to the agent. Question 2 (what an untrusted server can make the agent do) not answered yet.
+- Tutor, end: the student stopped after question 1. Question 2 was not answered.
+- Hand-in page, end state: the student wrote what an MCP server is and one reason to trust mst0441 (they trust the professor who made it). The agent suggested adding what the student checked. The student declined. "What I changed" is still empty. Uploaded to GitHub: not checked.
