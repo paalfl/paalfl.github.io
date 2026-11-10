@@ -188,4 +188,4 @@ My agent checked my solution on 9 November 2026. It recomputed the numbers in pr
 
 ## What I changed
 
-TO BE WRITTEN BY ME.
+I did not change my solution after the check. These are the fixes I would make. In 2(a) I would draw both frontiers with labelled axes. In 2(d) I would cut the explanation to three sentences. In 1(d) I would say that AI being able to do payroll runs is exposure, not adoption.
